@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Sergii-Drozdiuk.github.io/Car-rental",
+  "homepage": "https://github.com/Sergii-Drozdiuk/Car-rental",
   "scripts": {
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
