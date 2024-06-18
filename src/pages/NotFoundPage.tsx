@@ -5,7 +5,7 @@ export default function NotFoundPage() {
     <div className="mt-3 text-center">
       Sorry, this page does not exist. Please follow this link to the
       <Link to="/">
-        <span className="text-blue-500"> home page</span>
+        <span className="text-brand"> home page</span>
       </Link>
       .
     </div>

@@ -1,7 +1,7 @@
 export const Catalog = () => {
   return (
-    <div>
+    <main className='grow'>
       <p>Catalog page</p>
-    </div>
+    </main>
   );
 };

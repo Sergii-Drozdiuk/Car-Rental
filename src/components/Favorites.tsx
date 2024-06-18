@@ -1,7 +1,7 @@
 export const Favorites = () => {
   return (
-    <div>
+    <main className='grow'>
       <p>Favorites page</p>
-    </div>
+    </main>
   );
 };

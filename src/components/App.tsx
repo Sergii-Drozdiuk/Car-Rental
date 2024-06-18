@@ -8,12 +8,14 @@ const Catalog = lazy(() => import('../pages/Catalog'));
 const NotFoundPage = lazy(() => import('../pages/NotFoundPage'));
 
 export const App = () => {
-  <Routes>
-    <Route path="/" element={<Layout />}>
-      <Route index element={<Home />} />
-      <Route path="/catalog" element={<Catalog />} />
-      <Route path="/favorites" element={<Favorites />} />
-      <Route path="*" element={<NotFoundPage />} />
-    </Route>
-  </Routes>;
+  return (
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="/catalog" element={<Catalog />} />
+        <Route path="/favorites" element={<Favorites />} />
+        <Route path="*" element={<NotFoundPage />} />
+      </Route>
+    </Routes>
+  );
 };
