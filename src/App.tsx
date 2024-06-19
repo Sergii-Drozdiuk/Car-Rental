@@ -9,7 +9,7 @@ import './App.css';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <HashRouter basename="/Car-rental">
+    <HashRouter>
       {/* <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}> */}
       <App />
