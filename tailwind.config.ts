@@ -6,7 +6,7 @@ export default {
       montserrat: ['Montserrat', 'sans-serif'],
     },
     screens: {
-      adaptive: { max: '375px' },
+      adaptive: { max: '374px' },
       mobile: { min: '375px' },
       tablet: { min: '768px' },
       desktop: { min: '1024px' },
